@@ -1,0 +1,28 @@
+.headerAd {
+  padding: 15px 0;
+  background-color: #ea5450;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+.headerAdButton {
+  border: none;
+  background-color: inherit;
+  padding-left: 359px;
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+
+  img {
+    margin: 0 0 0 7.7px;
+    position: relative;
+    top: 7px;
+  }
+}
+
+//메인
+
+.head {
+  border-bottom: 1px solid #eee;
+}
