@@ -1,1 +1,17 @@
-$footer: #777777;
+.footer {
+  padding: 96px 25%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #dbdbdb;
+  line-height: 24px;
+  color: #777777;
+}
+
+.footer-title {
+  margin-bottom: 23px;
+  font-size: 16px;
+}
+
+.footer dd {
+  font-size: 15px;
+}
