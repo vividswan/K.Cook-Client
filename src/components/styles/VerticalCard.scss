@@ -1,0 +1,63 @@
+@import "./reset.scss";
+
+.vertical-card {
+  margin: 0;
+
+  display: inline-flex;
+  flex-direction: column;
+  width: 280px;
+  height: 460.5px;
+  background-color: fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+
+  & + & {
+    margin-left: 20px;
+  }
+}
+
+.vertical-card-img {
+  margin-bottom: 17px;
+  width: 100%;
+  height: 66%;
+}
+
+.vertical-card-info {
+  margin: 0;
+  padding-left: 20px;
+  font-weight: bold;
+
+  .card-shop-name {
+    margin-bottom: 2px;
+    color: $sub-text;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .card-cake-name {
+    margin-bottom: 10px;
+    color: $sub-text;
+    line-height: 18px;
+    font-size: 16px;
+  }
+  .card-minprice {
+    color: $pricetext;
+    font-size: 20px;
+  }
+}
+.card-top-info {
+  margin-bottom: 4px;
+}
+.card-review {
+  display: inline;
+  float: right;
+  margin-right: 20px;
+  font-size: 11px;
+  color: #858997;
+}
+.card-rating-star {
+  display: inline-block;
+  img {
+    vertical-align: top;
+    margin-right: 3px;
+  }
+}

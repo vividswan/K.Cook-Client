@@ -1,0 +1,11 @@
+@import "./reset.scss";
+
+.recommend {
+  margin: 0 auto;
+  background-color: #fafafa;
+  padding: 80px 0;
+
+  .recommend-contents {
+    margin: 0 $basic-padding;
+  }
+}

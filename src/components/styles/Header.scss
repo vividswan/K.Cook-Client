@@ -1,14 +1,14 @@
 @import "reset.scss";
 
 .header-ad {
-  padding: 0 15%;
+  padding: 0 $basic-padding;
   line-height: 50px;
   background-color: $pink;
 }
 
 .header-ad-text {
   position: relative;
-  padding-left: 35%;
+  padding-left: 50-$basic-padding;
   font-size: 13px;
   font-weight: 500;
   color: rgb(255, 255, 255);
@@ -32,7 +32,7 @@
 //메인
 
 .head {
-  padding: 0 15%;
+  padding: 0 $basic-padding;
   line-height: 82px;
   border-bottom: 1px solid #eee;
 }

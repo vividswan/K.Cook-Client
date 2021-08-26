@@ -1,11 +1,11 @@
 import React from 'react';
 import './styles/MainCrousel.scss'
-
+import Crousel1 from '../assets/crousel1.jpg';
 
 function Crousel (){
     return(
-        <div>
-            crousel
+        <div className="crousel">
+            <img src={Crousel1}/>
         </div>
     )
 }
