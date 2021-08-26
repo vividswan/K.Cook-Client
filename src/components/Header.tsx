@@ -8,23 +8,24 @@ import search from '../assets/searchButton.svg';
 
 function Header (){
     return(
-        <div>
-            <div className="headerAd">
-                첫 주문 시 10,000원 할인 쿠폰을 드립니다.
-                <button className="headerAdButton">
+        <div className="header">
+            <div className="header-ad">
+                <span className="header-ad-text">
+                    첫 주문 시 10,000원 할인 쿠폰을 드립니다.
+                </span>
+                <button className="header-ad-button">
                     오늘 하루 그만 보기 
-                    <img src={Xbutton} className="xButton"></img>
+                    <img src={Xbutton} className="x-button"></img>
                 </button>
             </div>
             <div className="head">
-                    <img src={logo} className="logo"></img>
-                    <input type="text" placeholder="상품 또는 스토어를 검색하세요."/>
-                    <button className="searchButton">
-                        <img src={search}></img>
-                    </button>
-                    <button className="login">로그인</button>
+                <img src={logo} className="logo"></img>
+                <form>
+                    <input type="text" placeholder="상품 또는 스토어를 검색하세요." />
+                </form>
+                <button className="login">로그인</button>
             </div>
-            <div className="menuBar">
+            <div className="menu-bar">
                 <Link to="/" className="home">홈</Link>
                 <Link to="/" className="home">오늘의 추천</Link>
                 <Link to="/" className="home">케이크</Link>

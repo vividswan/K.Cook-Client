@@ -1,16 +1,24 @@
-.headerAd {
-  padding: 15px 0;
-  background-color: #ea5450;
-  text-align: center;
+@import "reset.scss";
+
+.header-ad {
+  padding: 0 15%;
+  line-height: 50px;
+  background-color: $pink;
+}
+
+.header-ad-text {
+  position: relative;
+  padding-left: 35%;
   font-size: 13px;
   font-weight: 500;
   color: rgb(255, 255, 255);
+  text-align: center;
 }
 
-.headerAdButton {
-  border: none;
+.header-ad-button {
+  float: right;
+  line-height: 50px;
   background-color: inherit;
-  padding-left: 359px;
   font-size: 10px;
   color: rgb(255, 255, 255);
 
@@ -24,5 +32,51 @@
 //메인
 
 .head {
+  padding: 0 15%;
+  line-height: 82px;
   border-bottom: 1px solid #eee;
+}
+.logo {
+  vertical-align: middle;
+  margin-right: 22px;
+}
+.head form {
+  display: inline-block;
+}
+
+.head input {
+  width: 400px;
+  height: 46px;
+  background-color: #f8f8f9;
+  border-radius: 200px;
+  padding-left: 20px;
+
+  background-color: transparent;
+  background-image: url("../../assets/searchIcon.png");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  background-position: 95% center;
+
+  &::placeholder {
+    font-weight: 500;
+    font-size: 13px;
+  }
+}
+
+.login {
+  float: right;
+  line-height: 82px;
+  font-size: 14px;
+}
+
+// 메뉴바
+.menu-bar {
+  padding: 15px 15%;
+  font-weight: 700;
+  color: $pricetext;
+}
+
+.menu-bar a {
+  margin-right: 5rem;
+  color: #333333;
 }
