@@ -1,10 +1,10 @@
 import React from 'react';
-
+import './styles/MainRecommend.scss';
 
 function Recommend (){
     return(
         <div>
-            hello
+            Rec
         </div>
     )
 }
