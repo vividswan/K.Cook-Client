@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/VerticalCard.scss';
+import './styles/LengthwiseCard.scss';
 import cake1 from '../assets/cake1.png';
 import cake2 from '../assets/cake2.png';
 import cake3 from '../assets/cake3.png';
@@ -8,7 +8,7 @@ import emptystar from '../assets/empty-star.svg';
 import fillstar from '../assets/fill-star.svg';
 
 
-interface VerticalCardProps {
+interface LengthwiseCardProps {
     img? : string,
     star? : number,
     review? : number,
@@ -17,7 +17,7 @@ interface VerticalCardProps {
     minprice : number
 }
 
-function VerticalCard({ star, shop, cakename, minprice}: VerticalCardProps) { 
+function LengthwiseCard({ star, shop, cakename, minprice}: LengthwiseCardProps) { 
     return (
         <div className="vertical-card">
             <img src={cake1}  alt="cake-image" className="vertical-card-img"/>
@@ -50,4 +50,4 @@ function VerticalCard({ star, shop, cakename, minprice}: VerticalCardProps) {
     );
 }
 
-export default VerticalCard;
+export default LengthwiseCard;

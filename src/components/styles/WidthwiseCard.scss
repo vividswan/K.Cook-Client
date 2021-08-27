@@ -1,0 +1,36 @@
+@import "./reset.scss";
+
+.widthwise-card {
+  margin: 0;
+  display: inline-flex;
+  width: 580px;
+  height: 190px;
+  background-color: fff;
+
+  // .widthwise-card:nth-child(2n-1) {
+  // }
+  & {
+    padding-right: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+.widthwise-card-img {
+  margin: 18px 0;
+  width: 263.2px;
+
+  img {
+    width: 100%;
+  }
+}
+
+.widthwise-card-info {
+  margin-top: 18px;
+  margin-left: 20px;
+  font-weight: bold;
+
+  .card-review {
+    float: left;
+    margin-top: 12px;
+  }
+}

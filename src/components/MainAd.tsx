@@ -1,10 +1,11 @@
 import React from 'react';
-import './styles/MainAd.scss'
+import './styles/MainAd.scss';
+import adimg from '../assets/main-ad.png';
 
 function MainAd (){
     return(
-        <div>
-            Mainad
+        <div className="main-ad">
+            <img src={adimg} alt="advertise image"/>
         </div>
     )
 }

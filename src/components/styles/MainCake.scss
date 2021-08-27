@@ -1,0 +1,10 @@
+@import "./reset.scss";
+
+.main-cake {
+  .cake-contents {
+    padding: 0 $basic-padding;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

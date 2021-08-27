@@ -7,5 +7,7 @@
 
   .recommend-contents {
     margin: 0 $basic-padding;
+    display: flex;
+    justify-content: space-between;
   }
 }
