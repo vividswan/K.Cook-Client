@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 import { Url } from 'url';
 import '/Users/mac/Kyilee/projects/kcook/src/components/styles/MainRecommend.scss';
-import VerticalCard from '../components/LengthwiseCard';
-import SectionTitle from '../components/SectionTitle';
+import VerticalCard from '../../components/LengthwiseCard';
+import SectionTitle from '../../components/SectionTitle';
 
 
 function Recommend (){

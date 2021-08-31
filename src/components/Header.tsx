@@ -23,14 +23,25 @@ function Header (){
                 <form>
                     <input type="text" placeholder="상품 또는 스토어를 검색하세요." />
                 </form>
-                <button className="login">로그인</button>
+                <Link to="/Login">
+                    <button className="login">로그인</button>
+                </Link>
+                <Link to="/Login">
+                    <button className="login">판매자로 전환</button>
+                </Link>
+                <Link to="/Mypage">
+                    <button className="login">마이페이지</button>
+                </Link>
+                <Link to="/">
+                    <button className="login">로그아웃</button>
+                </Link>
             </div>
             <div className="menu-bar">
                 <Link to="/" className="home">홈</Link>
-                <Link to="/" className="home">오늘의 추천</Link>
-                <Link to="/" className="home">케이크</Link>
-                <Link to="/" className="home">추가 상품</Link>
-                <Link to="/" className="home">고객지원</Link>
+                <Link to="/TodaysRec" className="home">오늘의 추천</Link>
+                <Link to="/Cake" className="home">케이크</Link>
+                <Link to="/MoreItem" className="home">추가 상품</Link>
+                <Link to="/CS" className="home">고객지원</Link>
             </div>
         </div>
     )

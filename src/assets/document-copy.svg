@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="document_copy" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="document_copy_Background_Mask_" d="M0 0H24V24H0z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1,.cls-3{fill:none}.cls-3{stroke:#ea5450;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.3px;stroke-dasharray:0 0}
+        </style>
+    </defs>
+    <path id="document_copy_Background_Mask_2" d="M0 0H24V24H0z" class="cls-1"/>
+    <g id="document_copy-2" clip-path="url(#clip-path)">
+        <path id="Vector" d="M13.565 0A2.391 2.391 0 0 1 16 2.345v11.31A2.391 2.391 0 0 1 13.565 16H2.435A2.391 2.391 0 0 1 0 13.655V2.345A2.391 2.391 0 0 1 2.435 0z" class="cls-3" transform="translate(4 4)"/>
+        <g id="Group_1823" transform="translate(9 10)">
+            <path id="Vector-2" d="M0 0h4" class="cls-3" transform="translate(2)"/>
+            <path id="Vector-3" d="M0 0h6" class="cls-3" transform="translate(0 4)"/>
+        </g>
+    </g>
+</svg>

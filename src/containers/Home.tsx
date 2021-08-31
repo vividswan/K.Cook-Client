@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 
 import MainCrousel from '../components/Crousel';
-import MainRecommend from './MainRecommend';
-import MainCake from './MainCake';
+import MainRecommend from './main/MainRecommend';
+import MainCake from './main/MainCake';
 import MainAd from '../components/MainAd';
-import MainUpdate from './MainUpdate';
+import MainUpdate from './main/MainUpdate';
 
 
 

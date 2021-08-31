@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Frame_8" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="Frame_8_Background_Mask_" d="M0 0H24V24H0z" class="cls-1"/>
+        </clipPath>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <path id="Frame_8_Background_Mask_2" d="M0 0H24V24H0z" class="cls-1"/>
+    <g id="Frame_8-2" clip-path="url(#clip-path)">
+        <g id="Group_1896" transform="translate(2 2)">
+            <g id="Ellipse_179" fill="none" stroke="#fff" stroke-dasharray="0 0" stroke-width="1.3px">
+                <circle cx="10" cy="10" r="10" stroke="none"/>
+                <circle cx="10" cy="10" r="9.35" class="cls-1"/>
+            </g>
+            <text id="_" fill="#fff" font-family="Lato-Semibold, Lato" font-size="16px" font-weight="600" transform="translate(6)">
+                <tspan x="0" y="16">?</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

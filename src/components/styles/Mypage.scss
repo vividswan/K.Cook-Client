@@ -1,0 +1,35 @@
+@import "./reset.scss";
+
+.mypage {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+}
+
+.side-bar {
+  width: 240px;
+  height: 80vh;
+  padding-top: 80px;
+  background-color: $pink;
+
+  .name {
+    margin-left: 34px;
+    margin-bottom: 2px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .email {
+    margin-left: 34px;
+    margin-bottom: 60px;
+    font-size: 14px;
+  }
+}
+
+.mypage-menu {
+  display: flex;
+  flex-direction: column;
+  .mypage-menu-item {
+    color: #fff;
+    vertical-align: middle;
+  }
+}

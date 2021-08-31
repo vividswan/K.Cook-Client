@@ -1,9 +1,9 @@
 import React from 'react';
-import '../components/styles/MainCake.scss'
+import '../../components/styles/MainCake.scss'
 import '/Users/mac/Kyilee/projects/kcook/src/components/styles/MainRecommend.scss';
 
-import SectionTitle from '../components/SectionTitle';
-import WidthwiseCard from '../components/WidthwiseCard';
+import SectionTitle from '../../components/SectionTitle';
+import WidthwiseCard from '../../components/WidthwiseCard';
 
 function MainCake (){
     return(
