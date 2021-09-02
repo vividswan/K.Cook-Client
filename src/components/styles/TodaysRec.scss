@@ -1,0 +1,105 @@
+@import "./reset.scss";
+
+.todays-recommend {
+  margin: 80px $basic-padding;
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+}
+.sort-by-rec {
+  margin-bottom: 115px;
+}
+
+.pagination {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  display: block;
+  float: right;
+  color: #b2b2b2;
+  font-size: 18px;
+  .prev {
+    padding-right: 25px;
+    color: #b2b2b2;
+    font-size: 18px;
+  }
+  .next {
+    color: $pink;
+    font-size: 18px;
+  }
+  .pagi {
+    padding-right: 25px;
+    color: #b2b2b2;
+    font-size: 18px;
+  }
+  .active {
+    color: $pink;
+  }
+}
+
+// 케이쿡 추천 픽
+
+.kcook-pick {
+  margin-top: 50px;
+}
+
+// 이번달 인기이벤트
+
+.famous-event {
+  margin-top: 80px;
+  .event-top {
+    .title {
+      display: inline-block;
+    }
+    .view-all {
+      float: right;
+      vertical-align: middle;
+      display: inline;
+      color: $pink;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+}
+
+.event-contents {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.event-arrow {
+  margin-bottom: 50px;
+}
+
+.event-card {
+  margin-right: 23px;
+  .event-card:last-child {
+    margin-right: 12px;
+  }
+}
+
+.card-img {
+  width: 380px;
+  height: 225px;
+  overflow: hidden;
+  img {
+    width: 100%;
+  }
+}
+
+.event-card-title {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.event-date {
+  font-size: 12px;
+  font-weight: 500;
+  span {
+    color: $pink;
+  }
+}
