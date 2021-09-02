@@ -19,7 +19,9 @@ function Header (){
                 </button>
             </div>
             <div className="head">
-                <img src={logo} className="logo"></img>
+                <Link to="/" >
+                    <img src={logo} className="logo"/>
+                </Link>
                 <form>
                     <input type="text" placeholder="상품 또는 스토어를 검색하세요." />
                 </form>

@@ -17,7 +17,7 @@
 
 .header-ad-button {
   float: right;
-  line-height: 50px;
+  line-height: 49px;
   background-color: inherit;
   font-size: 10px;
   color: rgb(255, 255, 255);
@@ -71,12 +71,25 @@
 
 // 메뉴바
 .menu-bar {
-  padding: 15px 15%;
+  padding: 15px $basic-padding;
   font-weight: 700;
   color: $pricetext;
+  border-bottom: 1px solid #eee;
 }
 
 .menu-bar a {
   margin-right: 5rem;
   color: #333333;
+}
+
+.menu-bar a:hover {
+  color: $pink;
+  border-bottom: none;
+}
+
+.menu-bar a:focus {
+  color: $pink;
+  padding-bottom: 3px;
+  border-bottom: 3px solid $pink;
+  transition: all 0.1s ease-in;
 }

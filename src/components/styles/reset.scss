@@ -13,10 +13,21 @@ Link {
   color: #333333;
 }
 
+select {
+  border: none;
+  background-color: inherit;
+}
+select:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
 $pink: #ea5450;
 $letter-pink: #e74373;
 
 $pricetext: #333333;
 $sub-text: #262626;
 
-$basic-padding: 10%;
+$basic-padding: 15%;

@@ -36,7 +36,7 @@ function TodaysRec (){
             </div>
             <div className="kcook-pick">
                 <div className="title">케이쿡 추천 Pick</div>
-                <div className="recommend-contents">
+                <div className="pick-contents">
                     <WidthwiseCard shop="케이크바이미" cakename="하트볼터치 곰돌이케이크" minprice={5200}/>
                     <WidthwiseCard shop="케이크바이미" cakename="하트볼터치 곰돌이케이크" minprice={5200}/>
                     <WidthwiseCard shop="케이크바이미" cakename="하트볼터치 곰돌이케이크" minprice={5200}/>
