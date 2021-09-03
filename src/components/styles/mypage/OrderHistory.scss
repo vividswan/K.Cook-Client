@@ -1,0 +1,69 @@
+@import "../reset.scss";
+
+.order-history {
+  margin: 90px 0;
+  color: initial;
+}
+
+.mypage-top {
+  margin-bottom: 70px;
+  h3 {
+    display: inline-block;
+    margin-right: 40px;
+
+    font-size: 20px;
+    font-weight: 700;
+  }
+  span {
+    font-size: 12px;
+    font-weight: 500;
+    color: #777777;
+  }
+}
+.history-contents {
+  flex-direction: column;
+  display: flex;
+}
+.history-content {
+  display: flex;
+}
+.order-img {
+  margin-right: 35px;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.order-content {
+  margin-bottom: 40px;
+  color: $sub-text;
+
+  .order-cake {
+    margin-bottom: 3px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .order-cake-shop {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .order-option {
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #777777;
+  }
+  .order-time {
+    margin-top: 3px;
+  }
+  .order-price {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    color: $pink;
+  }
+}
