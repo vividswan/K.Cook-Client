@@ -4,7 +4,7 @@ import cake6 from   '../../assets/cake6.png';
 
 function OrderHistory (){
     return(
-        <div className="order-history">
+        <div className="mp-top order-history">
             <div className="mypage-top">
                 <h3>주문내역</h3>
                 <span>이전에 주문하신 내역입니다.</span>
