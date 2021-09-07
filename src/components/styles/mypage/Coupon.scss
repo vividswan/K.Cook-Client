@@ -1,0 +1,62 @@
+@import "../reset.scss";
+
+.coupon-top {
+  display: flex;
+}
+
+.coupon-code {
+  margin-left: 150px;
+  font-size: 12px;
+  input {
+    padding: 20px 22px;
+    color: #aaaaaa;
+    width: 450px;
+    border: solid 1px #eaeaea;
+  }
+  button {
+    background-color: $pink;
+    color: #fff;
+    padding: 20px 40px;
+  }
+}
+
+.coupon-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.coupon-card {
+  width: 410px;
+  height: 145px;
+  padding: 20px;
+  border: solid 1px #eaeaea;
+  color: $pricetext;
+}
+
+.coupon-price {
+  font-size: 20px;
+  font-weight: 900;
+}
+.coupon-name {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.coupon-bottom {
+  margin-top: 30px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.coupon-duedate {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+.using-coupon {
+  margin: 0;
+  color: #777777;
+  font-size: 14px;
+  font-weight: 500;
+}
