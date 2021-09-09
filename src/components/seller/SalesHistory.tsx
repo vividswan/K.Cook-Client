@@ -4,12 +4,12 @@ import '../styles/seller/SellerOrder.scss';
 import cake6 from   '../../assets/cake6.png';
 import { Link } from 'react-router-dom';
 
-function SellerOrder (){
+function SalesHistory (){
     return(
         <div className="mp-top seller-order">
             <div className="mypage-top">
-                <h3>주문확인</h3>
-                <span>처리할 예약 주문입니다.</span>
+                <h3>판매내역</h3>
+                <span>이전에 판매된 내역입니다.</span>
                 <div className='order-view-type'>
                     <Link to='/' className='view-calander'>달력보기</Link>
                     |
@@ -84,4 +84,4 @@ function SellerOrder (){
 }
 
 
-export default SellerOrder;
+export default SalesHistory;

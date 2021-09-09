@@ -23,13 +23,13 @@ function SellerSection (){
                         <Link to="/SellerOrder" className="seller-menu-link"><Menu className="icon"/>주문확인 </Link>
                     </div>
                     <div className="seller-menu-item" >
-                        <Link to="/SellerSell" className="seller-menu-link"><Menu className="icon"/>판매내역 </Link>
+                        <Link to="/SalesHistory" className="seller-menu-link"><Menu className="icon"/>판매내역 </Link>
                     </div>
                     <div className="seller-menu-item" >
-                        <Link to="/Reserve" className="seller-menu-link"> <Cube className="icon"/> 상품관리 </Link>
+                        <Link to="/ProductManagement" className="seller-menu-link"> <Cube className="icon"/> 상품관리 </Link>
                     </div>
                     <div className="seller-menu-item" >
-                        <Link to="/Coupon" className="seller-menu-link"> <CPicon className="icon"/> 상품후기 </Link>
+                        <Link to="/SellerReview" className="seller-menu-link"> <CPicon className="icon"/> 상품후기 </Link>
                     </div>
                     <div className="seller-menu-item" >
                         <Link to="/SellerStore" className="seller-menu-link"> <SettingIcon className="icon"/> 스토어 정보 </Link>

@@ -1,0 +1,53 @@
+@import "../reset.scss";
+
+.management-card {
+  margin-bottom: 20px;
+  display: flex;
+  width: 850px;
+  height: 230px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fefefe;
+}
+.move-tap {
+  height: 30px;
+  width: 815px;
+}
+.management-tap {
+  margin: 0;
+  border-radius: 0 5px 5px 0;
+  width: 35px;
+  background-color: $pink;
+}
+
+.management-content {
+  margin: 0;
+  display: flex;
+}
+
+// 추가 카드 부분
+
+.add-img {
+  margin-left: 30px;
+  background-color: #ebebeb;
+  border-radius: 5px;
+}
+
+.add-cake-name {
+  margin-bottom: 15pxs;
+  width: 550px;
+  height: 55px;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 3px solid #333;
+  background-color: #f1f3f4;
+}
+
+.add-option {
+  margin-top: 25px;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+
+  font-size: 16px;
+  color: #9ea4aa;
+  font-weight: 500;
+}
