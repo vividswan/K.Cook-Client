@@ -3,6 +3,8 @@ import '../styles/mypage/OrderHistory.scss';
 import '../styles/seller/ProductManagement.scss';
 import cake6 from   '../../assets/cake6.png';
 import xbtn from '../../assets/seller/22.png';
+import { ReactComponent as AddIcon } from '../../assets/seller/add-icon.svg';
+
 import { Link } from 'react-router-dom';
 
 function ProductManagement (){
@@ -38,7 +40,7 @@ function ProductManagement (){
                         <div className="move-tap"></div>
                         <div className="management-content">
                             <div className="add-img order-img">
-                                {/* <img src={cake6}/> */}
+                                <AddIcon/>
                             </div>    
                             <div className="move-column-tap"></div>
                             <div className="order-content seller-order-content">

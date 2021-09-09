@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="document_copy_Background_Mask_" data-name="document copy (Background/Mask)" style="stroke:#707070;fill:none" d="M0 0h55.716v55.716H0z"/>
+        </clipPath>
+        <style>
+            .cls-3,.cls-6{fill:none}.cls-6{stroke:#fff;stroke-linecap:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="그룹_3270" data-name="그룹 3270" transform="translate(-1272 -317)">
+        <rect id="cake-P3XNG7E" width="120" height="120" rx="5" transform="translate(1272 317)" style="fill:#ebebeb"/>
+        <g id="그룹_3269" data-name="그룹 3269" transform="rotate(-45 1101.38 -1371.81)">
+            <g id="그룹_3260" data-name="그룹 3260">
+                <g id="document_copy" data-name="document copy">
+                    <path id="document_copy_Background_Mask_2" data-name="document copy (Background/Mask)" class="cls-3" d="M0 0h55.716v55.716H0z"/>
+                </g>
+            </g>
+            <g id="그룹_3262" data-name="그룹 3262" transform="rotate(-45 35.333 11.328)">
+                <g id="타원_122" data-name="타원 122" style="stroke-linejoin:round;stroke:#fff;stroke-linecap:round;stroke-width:2px;fill:none">
+                    <circle cx="18.361" cy="18.361" r="18.361" style="stroke:none"/>
+                    <circle class="cls-3" cx="18.361" cy="18.361" r="17.361"/>
+                </g>
+                <path id="선_149" data-name="선 149" class="cls-6" transform="translate(10.236 18.361)" d="M0 0h16.25"/>
+                <path id="선_150" data-name="선 150" class="cls-6" transform="translate(18.361 10.236)" d="M0 0v16.25"/>
+            </g>
+        </g>
+    </g>
+</svg>

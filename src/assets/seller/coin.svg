@@ -1,0 +1,21 @@
+<svg id="_85" data-name="85" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="_85_Background_Mask_" data-name="85 (Background/Mask)" width="24" height="24" transform="translate(23 1)" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="_85_Background_Mask_2" data-name="85 (Background/Mask)" width="24" height="24" fill="none"/>
+  <g id="_85-2" data-name="85" transform="translate(-22)" clip-path="url(#clip-path)">
+    <line id="선_119" data-name="선 119" y1="11" transform="translate(44.5 8.5)" fill="none" stroke="#999" stroke-linecap="square" stroke-width="1"/>
+    <g id="그룹_3156" data-name="그룹 3156">
+      <g id="타원_106" data-name="타원 106" transform="translate(25 4)" fill="none" stroke="#999" stroke-width="1.2">
+        <ellipse cx="10" cy="4" rx="10" ry="4" stroke="none"/>
+        <ellipse cx="10" cy="4" rx="9.4" ry="3.4" fill="none"/>
+      </g>
+      <line id="선_118" data-name="선 118" y1="11" transform="translate(25.5 8.5)" fill="none" stroke="#999" stroke-linecap="square" stroke-width="1.2"/>
+      <path id="패스_2165" data-name="패스 2165" d="M44.5,19.5s-2.73,3.619-9.5,3.594S25.4,19.5,25.4,19.5" transform="translate(0 0.311)" fill="none" stroke="#999" stroke-width="1.2"/>
+      <path id="패스_2166" data-name="패스 2166" d="M44.5,19.5s-2.73,3.619-9.5,3.594S25.4,19.5,25.4,19.5" transform="translate(0 -3.594)" fill="none" stroke="#999" stroke-width="1.2"/>
+      <path id="패스_2167" data-name="패스 2167" d="M44.5,19.5s-2.73,3.619-9.5,3.594S25.4,19.5,25.4,19.5" transform="translate(0 -7.5)" fill="none" stroke="#999" stroke-width="1.2"/>
+    </g>
+  </g>
+</svg>

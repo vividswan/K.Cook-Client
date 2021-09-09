@@ -1,11 +1,17 @@
 import React from 'react';
 import '../styles/mypage/Profile.scss';
-
+import '../styles/seller/SellerStore.scss';
+import { ReactComponent as AddIcon } from '../../assets/seller/add-icon.svg';
 function SellerStore (){
     return(
-        <div className="mp-top profile">
-            <div className="mypage-top">
-                <h3>회원 정보 수정</h3>
+        <div className="mp-top seller-store">
+            <div className="mypage-top seller-store-top">
+                <h3>스토어 정보</h3>
+            </div>
+            <div className="profile-list">
+                    <button className="store-img-add">
+                        <AddIcon/>
+                    </button>
             </div>
             <div className="profile-list">
                 <p className="profile-name">아이디</p>
@@ -31,7 +37,7 @@ function SellerStore (){
                 <p className="profile-name">주소</p>
                 <input placeholder="서울시 성동구 뚝섬로 123-12" className="profile-content"></input>
             </div>
-            <button className="correction-btn">수정</button>
+            <button className="correction-btn">저장하기</button>
         </div>
             
     

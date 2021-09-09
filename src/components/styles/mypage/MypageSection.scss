@@ -1,0 +1,87 @@
+@import "../reset.scss";
+
+.mypage-section {
+  color: #fff;
+  margin-left: $basic-padding;
+  margin-right: 90px;
+}
+
+.side-bar {
+  position: relative;
+  width: 240px;
+  min-height: 80vh;
+  height: 100%;
+  padding-top: 80px;
+  background-color: $pink;
+
+  .name {
+    margin-left: 34px;
+    margin-bottom: 2px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .email {
+    margin-left: 34px;
+    margin-bottom: 60px;
+    font-size: 14px;
+  }
+}
+.mypage-menu-item {
+  margin-left: 33px;
+  margin-bottom: 20px;
+}
+
+.mypage-menu-link {
+  margin: 0 0 15px 0;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 25px 0 0 25px;
+  width: 208px;
+  height: 48px;
+  font-size: 14px;
+  color: #fff;
+  span {
+    margin: 0;
+  }
+}
+
+.mypage-icon {
+  margin: 0 15px 0 0;
+  stroke: #fff;
+  text,
+  tspan,
+  circle,
+  path {
+    stroke: #fff;
+  }
+  text {
+    fill: #fff;
+  }
+}
+
+.customer-center {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+  left: 48px;
+}
+
+.mypage-menu-link:focus {
+  background-color: #fff;
+  color: $pink;
+  font-weight: bold;
+  text,
+  circle,
+  path,
+  tspan,
+  line {
+    stroke: $pink;
+  }
+}
+
+.mypage-menu-item:focus,
+.icon:focus {
+  background-color: #fff;
+}
