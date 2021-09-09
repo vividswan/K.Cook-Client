@@ -1,0 +1,36 @@
+@import "../reset.scss";
+
+.order-view-type {
+  display: inline-block;
+  float: right;
+
+  color: #222222;
+  font-size: 16px;
+  font-weight: 700;
+  a {
+    margin: 0 10px;
+  }
+}
+
+.view-list {
+  color: $pink;
+}
+.view-list:focus {
+  color: $pink;
+}
+
+.seller-bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.order-time {
+  margin-bottom: 15px;
+  color: #777777;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pickup-time {
+  margin-top: 5px;
+}

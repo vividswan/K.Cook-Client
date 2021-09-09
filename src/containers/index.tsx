@@ -9,6 +9,7 @@ import Cake from './Cake';
 import MoreItem from './MoreItem';
 import CustomerService from './CS';
 import Mypage from './Mypage';
+import Seller from './Seller';
 
 
 const Pages = () =>{
@@ -21,6 +22,7 @@ const Pages = () =>{
         <Route exact path="/MoreItem" component={MoreItem} />
         <Route exact path="/customer-service" component={CustomerService} />
         <Route exact path="/Mypage" component={Mypage} />
+        <Route exact path="/Seller" component={Seller} />
       <Footer address="123 Lorem Ipsum Street Jakarta, Indonesia" tel="+ 72 4500 1240" email="tanahcon@companymail.com"/>
     </Router>    
   );

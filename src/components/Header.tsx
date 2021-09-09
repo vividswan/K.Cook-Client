@@ -28,7 +28,7 @@ function Header (){
                 <Link to="/Login">
                     <button className="login">로그인</button>
                 </Link>
-                <Link to="/Login">
+                <Link to="/Seller">
                     <button className="login">판매자로 전환</button>
                 </Link>
                 <Link to="/Mypage">
