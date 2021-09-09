@@ -1,39 +1,58 @@
 @import "../reset.scss";
 
 .management-card {
+  position: relative;
   margin-bottom: 20px;
   display: flex;
-  width: 850px;
+
   height: 230px;
   border-radius: 5px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
   background-color: #fefefe;
 }
 .move-tap {
+  margin-left: 380px;
   height: 30px;
-  width: 815px;
+  width: 100%;
+  svg {
+    display: inline-block;
+  }
 }
 .management-tap {
+  position: absolute;
+  right: 0;
   margin: 0;
+  padding: 5px;
   border-radius: 0 5px 5px 0;
   width: 35px;
+  height: 100%;
   background-color: $pink;
+  button {
+    padding: 0;
+  }
 }
-
+.management-section {
+  margin: 0 0 0 30px;
+}
 .management-content {
-  margin: 0;
+  width: 100%;
   display: flex;
 }
 
 // 추가 카드 부분
 
 .add-img {
-  margin-left: 30px;
+  margin: 0 20px 0 0;
   background-color: #ebebeb;
   border-radius: 5px;
+  padding: 40px;
+}
+.move-column-tap {
+  margin: 70px 10px 0 0;
 }
 
 .add-cake-name {
+  padding-left: 20px;
   margin-bottom: 15pxs;
   width: 550px;
   height: 55px;
@@ -50,4 +69,15 @@
   font-size: 16px;
   color: #9ea4aa;
   font-weight: 500;
+}
+
+.option-add-btn {
+  svg {
+    margin-left: 50%;
+  }
+  path,
+  circle,
+  g {
+    stroke: #ebebeb;
+  }
 }

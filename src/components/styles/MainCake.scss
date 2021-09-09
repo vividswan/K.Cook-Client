@@ -4,7 +4,8 @@
   margin-top: 80px;
   .cake-contents {
     padding: 0 $basic-padding;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     flex-wrap: wrap;
     justify-content: space-between;
   }

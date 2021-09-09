@@ -52,7 +52,10 @@
 .kcook-pick {
   margin-top: 50px;
 }
-
+.pick-contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 // 이번달 인기이벤트
 
 .famous-event {
