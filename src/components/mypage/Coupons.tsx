@@ -20,6 +20,22 @@ function Coupons (){
                     <button className="using-coupon">사용하러 가기 &gt;</button>
                 </div>
             </div>
+            <div className="coupon-card">
+                <h3 className="coupon-price">30000원</h3>
+                <p className="coupon-name">오늘만 반값, 여름 특별 할인 쿠폰</p>
+                <div className="coupon-bottom">
+                    <div className="coupon-duedate">D-5</div>
+                    <button className="using-coupon">사용하러 가기 &gt;</button>
+                </div>
+            </div>
+            <div className="coupon-card">
+                <h3 className="coupon-price">30000원</h3>
+                <p className="coupon-name">오늘만 반값, 여름 특별 할인 쿠폰</p>
+                <div className="coupon-bottom">
+                    <div className="coupon-duedate">D-5</div>
+                    <button className="using-coupon">사용하러 가기 &gt;</button>
+                </div>
+            </div>
             
         </div>
 

@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/mypage/OrderHistory.scss';
 import '../styles/seller/ProductManagement.scss';
 import cake6 from   '../../assets/cake6.png';
-import xbtn from '../../assets/seller/22.png';
 import { ReactComponent as AddIcon } from '../../assets/seller/add-icon.svg';
 
 import { Link } from 'react-router-dom';
@@ -32,7 +31,7 @@ function ProductManagement (){
                         </div>
                     </div>
                     <div className="management-tap">
-                        <img src={xbtn}/>
+                        <img />
                     </div>
                 </div>
                 <div className="add management-card">

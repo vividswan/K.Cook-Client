@@ -25,7 +25,7 @@ function MypageSection (){
                         <Link to="/ProductReview" className="mypage-menu-link"><SpeechBubble className="mypage-icon"/><span>상품후기</span> </Link>
                     </div>
                     <div className="mypage-menu-item" >
-                        <Link to="/Reserve" className="mypage-menu-link"> <Coin className="mypage-icon"/><span> 적립금</span> </Link>
+                        <Link to="/Membership" className="mypage-menu-link"> <Coin className="mypage-icon"/><span> 적립금</span> </Link>
                     </div>
                     <div className="mypage-menu-item" >
                         <Link to="/Coupon" className="mypage-menu-link"> <CPicon className="mypage-icon"/> <span>쿠폰 </span></Link>
