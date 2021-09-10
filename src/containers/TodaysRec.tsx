@@ -46,7 +46,6 @@ function TodaysRec (){
                 </div>
             </div>
 
-
             <div className="famous-event">
                 <div className="event-top">
                     <div className="title">이번 달 인기 이벤트</div>
@@ -56,7 +55,7 @@ function TodaysRec (){
                     <button className="event-arrow event-left">
                         <img src={leftArrow}/>
                     </button>
-
+                    
                     <div className="event-card">
                         <div className="card-img">
                             <img src={event1}/>
@@ -67,7 +66,7 @@ function TodaysRec (){
                             07.22 (목) ~ 07.31(토)
                         </div>
                     </div>
-
+                    
                     <div className="event-card">
                         <div className="card-img">
                             <img src={event2}/>
