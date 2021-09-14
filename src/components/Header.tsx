@@ -28,10 +28,10 @@ function Header (){
                 <Link to="/Login">
                     <button className="login">로그인</button>
                 </Link>
-                <Link to="/Seller">
+                <Link to="/SellerOrder">
                     <button className="login">판매자로 전환</button>
                 </Link>
-                <Link to="/Mypage">
+                <Link to="/MypageOrder">
                     <button className="login">마이페이지</button>
                 </Link>
                 <Link to="/">

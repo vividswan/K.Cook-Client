@@ -52,6 +52,9 @@
   text,
   tspan,
   circle,
+  line,
+  text,
+  ellipse,
   path {
     stroke: #fff;
   }
@@ -75,7 +78,9 @@
   text,
   circle,
   path,
+  g,
   tspan,
+  ellipse,
   line {
     stroke: $pink;
   }

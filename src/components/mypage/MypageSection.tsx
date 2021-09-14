@@ -19,7 +19,7 @@ function MypageSection (){
                 <div className="email">mykim@naver.com</div>
                 <div className="mypage-menu">
                     <div className="mypage-menu-item" >
-                        <Link to="/OrderHistory" className="mypage-menu-link"><Menu className="mypage-icon"/><span>주문내역</span> </Link>
+                        <Link to="/MypageOrder" className="mypage-menu-link"><Menu className="mypage-icon"/><span>주문내역</span> </Link>
                     </div>
                     <div className="mypage-menu-item" >
                         <Link to="/ProductReview" className="mypage-menu-link"><SpeechBubble className="mypage-icon"/><span>상품후기</span> </Link>

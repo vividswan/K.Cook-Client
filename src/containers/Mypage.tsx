@@ -13,7 +13,7 @@ const Mypage = () =>{
             <div className="mypage">
                 <Router>
                     <MypageSection />
-                    <Route exact path="/OrderHistory" component={OrderHistory} />
+                    <Route exact path="/MypageOrder" component={OrderHistory} />
                     <Route exact path="/ProductReview" component={ProductReview} />
                     <Route exact path="/Membership" component={Membership} />
                     <Route exact path="/Coupon" component={Coupons} />

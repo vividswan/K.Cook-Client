@@ -21,8 +21,8 @@ const Pages = () =>{
         <Route exact path="/cake" component={Cake} />
         <Route exact path="/MoreItem" component={MoreItem} />
         <Route exact path="/customer-service" component={CustomerService} />
-        <Route exact path="/Mypage" component={Mypage} />
-        <Route exact path="/Seller" component={Seller} />
+        <Route exact path="/MypageOrder" component={Mypage} />
+        <Route exact path="/SellerOrder" component={Seller} />
       <Footer address="123 Lorem Ipsum Street Jakarta, Indonesia" tel="+ 72 4500 1240" email="tanahcon@companymail.com"/>
     </Router>    
   );

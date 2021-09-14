@@ -37,7 +37,11 @@
   color: #fff;
   background-color: $pink;
   stroke: $pink;
+  text,
+  circle,
   path,
+  tspan,
+  ellipse,
   line {
     stroke: #fff;
   }
