@@ -10,7 +10,7 @@ import MoreItem from './MoreItem';
 import CustomerService from './CS';
 import Mypage from './Mypage';
 import Seller from './Seller';
-
+import FullCalendarApp from '../components/seller/FullCalendarApp';
 
 const Pages = () =>{
   return (
@@ -23,6 +23,7 @@ const Pages = () =>{
         <Route exact path="/customer-service" component={CustomerService} />
         <Route exact path="/MypageOrder" component={Mypage} />
         <Route exact path="/SellerOrder" component={Seller} />
+        <Route exact path="/FullCalendarApp" component={FullCalendarApp} />
       <Footer address="123 Lorem Ipsum Street Jakarta, Indonesia" tel="+ 72 4500 1240" email="tanahcon@companymail.com"/>
     </Router>    
   );

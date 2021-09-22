@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
 import LengthwiseCard from '../components/LengthwiseCard';
-import '/Users/mac/Kyilee/projects/kcook/src/components/styles/MainRecommend.scss';
+import '/Users/mac/Kyilee/projects/kcook/src/components/styles/main/MainRecommend.scss';
 import '/Users/mac/Kyilee/projects/kcook/src/components/styles/TodaysRec.scss';
 import WidthwiseCard from '../components/WidthwiseCard';
 

@@ -8,7 +8,7 @@ import SellerReview from '../components/seller/SellerReview';
 import SellerStore from '../components/seller/SellerStore';
 
 
-import '/Users/mac/Kyilee/projects/kcook/src/components/styles/Mypage.scss';
+import '/Users/mac/Kyilee/projects/kcook/src/components/styles/mypage/Mypage.scss';
 import '/Users/mac/Kyilee/projects/kcook/src/components/styles/seller/Seller.scss';
 
 const Seller = () =>{

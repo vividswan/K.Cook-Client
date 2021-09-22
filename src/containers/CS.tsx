@@ -4,7 +4,7 @@ import React from 'react';
 function CS (){
     return(
         <div>
-            This is Home
+            This is Customer Support
         </div>
     )
 }

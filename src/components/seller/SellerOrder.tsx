@@ -11,9 +11,9 @@ function SellerOrder (){
                 <h3>주문확인</h3>
                 <span>처리할 예약 주문입니다.</span>
                 <div className='order-view-type'>
-                    <Link to='/' className='view-calander'>달력보기</Link>
+                    <Link to='/FullCalendarApp' className='view-calander'>달력보기</Link>
                     |
-                    <Link to='/' className='view-list'>목록보기</Link>
+                    <Link to='/SellerOrder' className='view-list'>목록보기</Link>
                 </div>
             </div>
             <div className="history-contents">
