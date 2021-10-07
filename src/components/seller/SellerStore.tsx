@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/mypage/Profile.scss';
-import '../styles/seller/SellerStore.scss';
+import '../../styles/mypage/Profile.scss';
+import '../../styles/seller/SellerStore.scss';
 import { ReactComponent as AddIcon } from '../../assets/seller/add-icon.svg';
 function SellerStore (){
     return(

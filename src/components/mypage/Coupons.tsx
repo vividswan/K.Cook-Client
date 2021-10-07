@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/mypage/Coupon.scss';
+import '../../styles/mypage/Coupon.scss';
 
 function Coupons (){
     return(

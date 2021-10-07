@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles/WidthwiseCard.scss';
-import './styles/LengthwiseCard.scss';
+import '../styles/WidthwiseCard.scss';
+import '../styles/LengthwiseCard.scss';
 import cake1 from '../assets/cake1.png';
 import cake2 from '../assets/cake2.png';
 import cake3 from '../assets/cake3.png';

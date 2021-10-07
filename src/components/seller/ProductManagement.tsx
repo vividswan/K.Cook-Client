@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/mypage/OrderHistory.scss';
-import '../styles/seller/ProductManagement.scss';
+import '../../styles/mypage/OrderHistory.scss';
+import '../../styles/seller/ProductManagement.scss';
 import cake6 from   '../../assets/cake6.png';
 import { ReactComponent as AddIcon } from '../../assets/seller/add-icon.svg';
 import { ReactComponent as CloseBtn } from '../../assets/seller/closebtn.svg';

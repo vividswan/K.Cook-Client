@@ -1,7 +1,7 @@
 import React from 'react';
 import VerticalCard from '../components/LengthwiseCard';
-import '../components/styles/Cake.scss';
-import '../components/styles/MoreItem.scss';
+import '../styles/Cake.scss';
+import '../styles/MoreItem.scss';
 
 
 function MoreItem (){

@@ -6,7 +6,6 @@
     padding: 0 $basic-padding;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    grid-column-gap: 20px;
   }
 }

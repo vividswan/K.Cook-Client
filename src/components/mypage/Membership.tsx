@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/mypage/Membership.scss';
+import '../../styles/mypage/Membership.scss';
 
 function Membership (){
     return(

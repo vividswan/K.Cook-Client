@@ -1,6 +1,6 @@
 import React from 'react';
 import VerticalCard from '../components/LengthwiseCard';
-import '../components/styles/Cake.scss';
+import '../styles/Cake.scss';
 
 function Cake (){
     return(

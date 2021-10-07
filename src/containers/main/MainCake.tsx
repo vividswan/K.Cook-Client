@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../components/styles/main/MainCake.scss'
-import '/Users/mac/Kyilee/projects/kcook/src/components/styles/main/MainRecommend.scss';
+import '../../styles/main/MainCake.scss'
+import '/Users/mac/Kyilee/projects/kcook/src/styles/main/MainRecommend.scss';
 
 import SectionTitle from '../../components/SectionTitle';
 import WidthwiseCard from '../../components/WidthwiseCard';

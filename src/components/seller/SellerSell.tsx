@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/mypage/ProductReview.scss';
+import '../../styles/mypage/ProductReview.scss';
 import cake6 from   '../../assets/cake6.png';
 
 function SellerSell (){

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './styles/Header.scss';
+import '../styles/Header.scss';
 import Xbutton from '../assets/2477.svg';
 import logo from '../assets/logo.png';
 import search from '../assets/searchButton.svg';

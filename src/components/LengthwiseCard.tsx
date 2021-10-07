@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/LengthwiseCard.scss';
+import '../styles/LengthwiseCard.scss';
 import cake1 from '../assets/cake1.png';
 import cake2 from '../assets/cake2.png';
 import cake3 from '../assets/cake3.png';
@@ -19,32 +19,34 @@ interface LengthwiseCardProps {
 
 function LengthwiseCard({ star, shop, cakename, minprice}: LengthwiseCardProps) { 
     return (
+            <div className="container">
         <div className="vertical-card">
-            <img src={cake1}  alt="cake-image" className="vertical-card-img"/>
-            <div className="vertical-card-info">
-                <div className="card-top-info">
-                    <div className="card-rating-star">
-                        <img src={fillstar} alt="lating-star" />
-                        <img src={fillstar} alt="lating-star" />
-                        <img src={fillstar} alt="lating-star" />
-                        <img src={emptystar} alt="lating-star" />
-                        <img src={emptystar} alt="lating-star" />
+                <img src={cake1}  alt="cake-image" className="vertical-card-img"/>
+                <div className="vertical-card-info">
+                    <div className="card-top-info">
+                        <div className="card-rating-star">
+                            <img src={fillstar} alt="lating-star" />
+                            <img src={fillstar} alt="lating-star" />
+                            <img src={fillstar} alt="lating-star" />
+                            <img src={emptystar} alt="lating-star" />
+                            <img src={emptystar} alt="lating-star" />
+                        </div>
+                        <div className="card-review">
+                            리뷰 27
+                        </div>
                     </div>
-                    <div className="card-review">
-                        리뷰 27
+                    
+                    <div className="card-shop-name">
+                        {shop}
                     </div>
+                    <div className="card-cake-name">
+                        {cakename}
+                    </div>
+                    <div className="card-minprice">
+                        {minprice+"~"}
+                    </div>
+                    
                 </div>
-                
-                <div className="card-shop-name">
-                    {shop}
-                </div>
-                <div className="card-cake-name">
-                    {cakename}
-                </div>
-                <div className="card-minprice">
-                    {minprice+"~"}
-                </div>
-                
             </div>
         </div>
     );

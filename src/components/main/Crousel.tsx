@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/main/MainCrousel.scss'
+import '../../styles/main/MainCrousel.scss'
 import Crousel1 from '../../assets/crousel1.jpg';
 
 function Crousel (){

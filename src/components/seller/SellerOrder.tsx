@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/mypage/OrderHistory.scss';
-import '../styles/seller/SellerOrder.scss';
+import '../../styles/mypage/OrderHistory.scss';
+import '../../styles/seller/SellerOrder.scss';
 import cake6 from   '../../assets/cake6.png';
 import { Link } from 'react-router-dom';
 
