@@ -6,7 +6,7 @@ import Membership from '../components/mypage/Membership';
 import Coupons from '../components/mypage/Coupons';
 import Profile from '../components/mypage/Profile';
 import MypageSection from '../components/mypage/MypageSection';
-import '/Users/mac/Kyilee/projects/kcook/src/styles/mypage/Mypage.scss';
+import '../../src/styles/mypage/Mypage.scss'
 
 const Mypage = () =>{
     return(

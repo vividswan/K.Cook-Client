@@ -7,9 +7,8 @@ import ProductManagement from '../components/seller/ProductManagement';
 import SellerReview from '../components/seller/SellerReview';
 import SellerStore from '../components/seller/SellerStore';
 
-
-import '/Users/mac/Kyilee/projects/kcook/src/styles/mypage/Mypage.scss';
-import '/Users/mac/Kyilee/projects/kcook/src/styles/seller/Seller.scss';
+import '../../src/styles/mypage/Mypage.scss'
+import '../../src/styles/seller/Seller.scss'
 
 const Seller = () =>{
     return(

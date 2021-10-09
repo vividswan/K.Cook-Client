@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route,Link} from 'react-router-dom';
-import '/Users/mac/Kyilee/projects/kcook/src/styles/mypage/MypageSection.scss';
+import '../../../src/styles/mypage/MypageSection.scss'
 
 import { ReactComponent as Menu } from '../../assets/mypage/menu.svg';
 import { ReactComponent as Coin } from '../../assets/seller/coin.svg';

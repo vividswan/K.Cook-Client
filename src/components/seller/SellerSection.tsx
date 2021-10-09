@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route,Link} from 'react-router-dom';
-import '/Users/mac/Kyilee/projects/kcook/src/styles/seller/SellerSection.scss';
+import '../../../src/styles/seller/SellerSection.scss';
 
 import { ReactComponent as SellerHouse } from '../../assets/3170.svg';
 

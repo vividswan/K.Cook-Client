@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Link, Route} from 'react-router-dom';
 import LengthwiseCard from '../components/LengthwiseCard';
-import '/Users/mac/Kyilee/projects/kcook/src/styles/main/MainRecommend.scss';
-import '/Users/mac/Kyilee/projects/kcook/src/styles/TodaysRec.scss';
+import '../../src/styles/main/MainRecommend.scss'
+import '../../src/styles/TodaysRec.scss'
 import WidthwiseCard from '../components/WidthwiseCard';
 
 import leftArrow from '../assets/left-arrow.svg';
