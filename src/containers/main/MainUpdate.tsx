@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/main/MainUpdate.scss'
-import '/Users/mac/Kyilee/projects/kcook/src/styles/main/MainRecommend.scss';
+import '../../styles/main/MainRecommend.scss'
 import LengthwiseCard from '../../components/LengthwiseCard';
 import SectionTitle from '../../components/SectionTitle';
 
